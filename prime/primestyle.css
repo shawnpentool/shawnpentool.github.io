@@ -1,0 +1,233 @@
+/* Prime Digital Academy Application Styles */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Body Styles */
+
+body {
+    display:block;
+}
+
+header {
+    text-align:center;
+    background-color: white;
+    padding: 30px;
+}
+
+/* Navigation Styles */
+
+nav {
+    text-align: center; 
+    font-family: "Lucida Console"; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+nav ul {
+	list-style: none;
+	display: inline-block;  
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li:hover a {
+    color:blueviolet;
+}
+
+nav li a {
+    padding: 5px 35px;
+    color: black; 
+    text-decoration: none;
+}
+
+/* Section Styles - Contact */
+
+section.contact {
+    float: left;
+    font-family: Verdana;
+    color: black;
+    margin-left: 35%; 
+    margin-top: 50px;
+    margin-bottom: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 3px outset aqua;
+}
+
+section.contact a:link {
+    text-decoration: none;
+}
+
+section.contact a:visited {
+    color: green;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Calibri";
+}
+
+section.contact p {
+    margin: 20px;
+}
+
+/* Section Styles - Education */
+
+section.education {
+    float: left;
+    font-family: Verdana;
+    color: black;
+    margin-left: 25%; 
+    margin-top: 50px;
+    margin-bottom: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 3px outset aqua;
+}
+
+section.education h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Calibri";
+}
+
+section.education p {
+    margin: 20px;
+}
+
+/*Section Styles - Work */
+
+section.work {
+    float: left;
+    font-family: Verdana;
+    color: black;
+    margin-left: 22%; 
+    margin-top: 50px;
+    margin-bottom: 8px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 3px outset aqua;
+}
+
+/* Section Styles - Work */
+
+section.work h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Calibri";
+}
+
+section.work h3 {
+    font-family: "Gill Sans";
+}
+
+section.work p {
+    font-size: 80%;
+}
+
+section.work ul {
+    font-size: 80%;
+    list-style-type: square;
+    padding-left: 5%;
+}
+
+section.work a:visited {
+    text-align: center;
+    text-decoration: none;
+    color:darkmagenta;    
+}
+
+section.work a:link {
+    color:green;
+}
+
+/* Section Styles - About */
+
+section.about{
+    float: left;
+    font-family: Verdana;
+    color: black;
+    margin-left: 20%; 
+    margin-top: 50px;
+    margin-bottom: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 3px outset aqua;
+}
+
+section.about a:link {
+    text-decoration: none;
+}
+
+section.about a:visited {
+    color: green;
+}
+
+section.about h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Calibri";
+}
+
+section.about ul {
+    font-size: 80%;
+    list-style-type: square;
+    padding-left: 5%;
+}
+
+section.about p {
+    font-size: 80%;
+    text-align: center;
+}
+
+/* Section Styles - Home */
+
+section.home {
+    float: left;
+    font-family: Verdana;
+    color: black;
+    margin-left: 36%; 
+    margin-top: 50px;
+    margin-bottom: 8px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 3px outset aqua;
+}
+
+section.home a:link {
+    text-decoration: none;
+}
+
+section.home a:visited {
+    color: green;
+}
+
+section.home h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Calibri";
+}
+
+section.home p {
+    margin: 20px;
+}   
+
+
+    
